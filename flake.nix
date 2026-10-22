@@ -20,6 +20,8 @@
 
                     buildInputs = [
                         python
+                        python.pkgs.pillow
+                        python.pkgs.tabulate
                         python.pkgs.venvShellHook
                     ];
 
